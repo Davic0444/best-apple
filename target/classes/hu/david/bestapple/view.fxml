@@ -69,64 +69,64 @@
          <font>
             <Font size="13.0" />
          </font></Label>
-      <Button mnemonicParsing="false" text="Megrendelés" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="9">
+      <Button fx:id="btnOrderButton" mnemonicParsing="false" onAction="#placeOrder" text="Megrendelés" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="9">
          <font>
             <Font name="Arial" size="13.0" />
          </font></Button>
-      <TextField alignment="CENTER" promptText="pld.: Teszt Elek" GridPane.columnIndex="1">
+      <TextField fx:id="tfCustomerName" alignment="CENTER" promptText="pld.: Teszt Elek" GridPane.columnIndex="1">
          <GridPane.margin>
             <Insets left="50.0" right="50.0" />
          </GridPane.margin>
          <font>
             <Font name="Arial" size="13.0" />
          </font></TextField>
-      <TextField alignment="CENTER" promptText="pld.: test@domain.com" GridPane.columnIndex="1" GridPane.rowIndex="1">
+      <TextField fx:id="tfEmail" alignment="CENTER" promptText="pld.: test@domain.com" GridPane.columnIndex="1" GridPane.rowIndex="1">
          <GridPane.margin>
             <Insets left="50.0" right="50.0" />
          </GridPane.margin>
          <font>
             <Font name="Arial" size="13.0" />
          </font></TextField>
-      <TextField alignment="CENTER" promptText="pld.: +36234535234" GridPane.columnIndex="1" GridPane.rowIndex="2">
+      <TextField fx:id="tfPhoneNumber" alignment="CENTER" promptText="pld.: +36234535234" GridPane.columnIndex="1" GridPane.rowIndex="2">
          <GridPane.margin>
             <Insets left="50.0" right="50.0" />
          </GridPane.margin>
          <font>
             <Font name="Arial" size="13.0" />
          </font></TextField>
-      <TextField alignment="CENTER" promptText="pld.: 3333" GridPane.columnIndex="1" GridPane.rowIndex="3">
+      <TextField fx:id="tfPostCode" alignment="CENTER" promptText="pld.: 3333" GridPane.columnIndex="1" GridPane.rowIndex="3">
          <GridPane.margin>
             <Insets left="50.0" right="50.0" />
          </GridPane.margin>
          <font>
             <Font size="13.0" />
          </font></TextField>
-      <TextField alignment="CENTER" promptText="pld.: Budapest" GridPane.columnIndex="1" GridPane.rowIndex="4">
+      <TextField fx:id="tfCity" alignment="CENTER" promptText="pld.: Budapest" GridPane.columnIndex="1" GridPane.rowIndex="4">
          <GridPane.margin>
             <Insets left="50.0" right="50.0" />
          </GridPane.margin>
          <font>
             <Font name="Arial" size="13.0" />
          </font></TextField>
-      <TextField alignment="CENTER" promptText="pld.: Fő u. 1" GridPane.columnIndex="1" GridPane.rowIndex="5">
+      <TextField fx:id="tfAddress" alignment="CENTER" promptText="pld.: Fő u. 1" GridPane.columnIndex="1" GridPane.rowIndex="5">
          <GridPane.margin>
             <Insets left="50.0" right="50.0" />
          </GridPane.margin>
          <font>
             <Font name="Arial" size="13.0" />
          </font></TextField>
-      <TextField alignment="CENTER" promptText="pld.: 2.8" GridPane.columnIndex="1" GridPane.rowIndex="6">
+      <TextField fx:id="tfAmount" alignment="CENTER" promptText="pld.: 2.8" GridPane.columnIndex="1" GridPane.rowIndex="6">
          <GridPane.margin>
             <Insets left="50.0" right="50.0" />
          </GridPane.margin>
          <font>
             <Font name="Arial" size="13.0" />
          </font></TextField>
-      <ComboBox fx:id="products" onAction="#selectProduct" prefWidth="150.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="7">
+      <ComboBox fx:id="cbproducts" onAction="#selectProduct" prefWidth="150.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="7">
          <GridPane.margin>
             <Insets right="115.0" />
          </GridPane.margin></ComboBox>
-      <CheckBox mnemonicParsing="false" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="8" GridPane.valignment="CENTER">
+      <CheckBox fx:id="chLoweredPrice" mnemonicParsing="false" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="8" GridPane.valignment="CENTER">
          <font>
             <Font name="Arial" size="13.0" />
          </font>
